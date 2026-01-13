@@ -4,7 +4,8 @@ open System
 open Types
 
 // 1) Telegram Bot Token (nach Revoke den neuen eintragen)
-let Token = Environment.GetEnvironmentVariable "7956346228:AAHK-54f6okMszcEPvun16k_pdZXMPHImU0"
+let Token = Environment.GetEnvironmentVariable "TELEGRAM_TOKEN"
+
 
 // 2) WG-Mitglieder (aus getUpdates: from.id)
 let allFlatmates : Flatmate list =
