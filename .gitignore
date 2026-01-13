@@ -3,7 +3,6 @@
 
 # User-specific files
 
-Secret.fs
 token
 secret/
 # User-specific files (MonoDevelop/Xamarin Studio)
